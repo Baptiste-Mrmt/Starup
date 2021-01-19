@@ -5,10 +5,13 @@
   border: 0;
 }
 
+/* TAG SETTINGS */
+
 body {
-  font-size: 1rem;
+  font-size: 1em;
   font-family: "Lato", sans-serif;
   background-image: url("grandient.png");
+  background-repeat: no-repeat;
   background-color: #222;
 }
 
@@ -28,7 +31,7 @@ ul {
   list-style: none;
 }
 
-/* EN-TÊTE */
+/* HEADER */
 
 header {
   display: flex;
@@ -80,13 +83,29 @@ header {
   background-color: #2d7bf6;
 }
 
-/* PRINCIPALE */
+/* MAIN */
 
-h1 {
-  font-size: 3rem;
-  font-weight: bold;
+#h1-homepage {
+  padding: 25vh 0 0 0;
+  width: 50%;
+  font-size: 4em;
+  font-weight: 900;
 }
 
 #h1-keywors {
   color: #2d7bf6;
+}
+
+#metadesc {
+  width: 35%;
+  padding: 2vh 0;
+  font-size: 1em;
+  color: #777;
+}
+
+#try-for-free {
+  color: #fff;
+  padding: 1vw 2vw;
+  border-radius: 10px;
+  background-color: #2d7bf6;
 }
