@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Lato", sans-serif;
+  background-image: url("grandient.png");
+  background-color: #222;
+}
+
+header,
+main,
+footer {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* EN-TÊTE */
+
+header {
+  display: flex;
+}
+
+#logo-link {
+  width: 25vw;
+  margin: 1vw;
+  margin-left: 0;
+}
+
+#logo {
+  width: 10vw;
+}
+
+#main-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  margin: 1vw;
+}
+
+#main-nav a {
+  color: #2d7bf6;
+}
+
+#account {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 25vw;
+  margin: 1vw;
+  margin-right: 0;
+}
+
+#log-in {
+  color: #2d7bf6;
+  padding: 1vw 2vw;
+  border: 0.05rem solid;
+  border-radius: 10px;
+  border-color: #2d7bf6;
+}
+
+#sign-up {
+  color: #fff;
+  padding: 1vw 2vw;
+  border-radius: 10px;
+  background-color: #2d7bf6;
+}
+
+/* PRINCIPALE */
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#h1-keywors {
+  color: #2d7bf6;
+}
