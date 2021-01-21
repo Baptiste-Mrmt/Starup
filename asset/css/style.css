@@ -103,9 +103,14 @@ header {
   color: #777;
 }
 
-#try-for-free {
-  color: #fff;
+#try-button {
+  width: auto;
+  padding: 2vh 0;
+}
+
+#try-button a {
   padding: 1vw 2vw;
   border-radius: 10px;
+  color: #fff;
   background-color: #2d7bf6;
 }
