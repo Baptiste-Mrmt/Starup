@@ -12,7 +12,6 @@ body {
   font-family: "Lato", sans-serif;
   background-image: url("grandient.png");
   background-repeat: no-repeat;
-  background-color: #222;
 }
 
 header,
@@ -71,7 +70,8 @@ header {
 #log-in {
   color: #2d7bf6;
   padding: 1vw 2vw;
-  border: 0.05rem solid;
+  border: solid;
+  border-width: thin;
   border-radius: 10px;
   border-color: #2d7bf6;
 }
@@ -87,9 +87,9 @@ header {
 
 #h1-homepage {
   margin-top: 20vh;
-  width: 50%;
+  max-width: 37%;
+  text-align: left;
   font-size: 4em;
-  font-weight: 900;
   text-transform: capitalize;
 }
 
@@ -98,37 +98,52 @@ header {
 }
 
 #metadesc {
-  width: 35%;
-  padding: 2vh 0;
+  max-width: 35%;
+  margin: 2vh 0;
   font-size: 1em;
   color: #777;
 }
 
 #main-cta {
   display: flex;
+  margin: 5vh 0;
 }
 
 #try-button {
-  padding: 2vh 0;
-}
-
-#try-button a {
+  color: #fff;
   padding: 1vw 2vw;
   border-radius: 10px;
-  color: #fff;
   background-color: #2d7bf6;
 }
 
 #shiw {
-  padding: 2vh 0;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  color: #777;
 }
 
-#play-logo {
-  width: 0.5vw;
+.icon-play-ico {
+  margin: 0 1vw 0 1.5vw;
   padding: 1vw;
-  margin-left: 1vw;
+  font-size: 1em;
   border-radius: 50%;
+  color: #2d7bf6;
   background-color: #fff;
+}
+
+#catch-line {
+  font-size: 1.2em;
+  margin: 10vh 0 2vh 0;
+  color: #777;
+}
+
+#social-media {
+  display: inline-flex;
+  align-items: center;
+  margin: 2vh 0;
+}
+
+#social-media img {
+  margin-right: 1vw;
+  max-width: 5vw;
 }
